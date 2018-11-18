@@ -1,0 +1,16 @@
+#btn_goupe {
+    width:80%;
+}
+
+#card_title_name {
+    width:50%;
+}
+
+#add_comment_btn {
+    text-decoration: none;
+    color: white;
+}
+
+.delete_button {
+    display: inline-block;
+}

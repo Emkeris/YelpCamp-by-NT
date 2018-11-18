@@ -1,0 +1,16 @@
+<% include ../partials/header %>
+
+<h1 class="text-center my-4">New CampGround</h1>
+<div class="container w-25 mx-aut0"> 
+<form class="mt-2" method="POST" action="/campgrounds">
+    <input class="form-control form-group" type="text" name="name" placeholder="Name of campground">
+    <input class="form-control form-group" type="text" name="image" placeholder="URL of campgrounds image">    
+    <input class="form-control form-group" type="number" name="price" placeholder="Price for the Night" min="0.01" step="0.01">    
+    <input class="form-control form-group" type="text" name="description" placeholder="Description here">
+    <button type"submit" class="btn btn-primary btn-block">Submit</button>
+</form>
+<br>
+<a href="/campgrounds">Go Back</a>
+</div>
+
+<% include ../partials/footer %>
